@@ -22,13 +22,13 @@ export const menuLink = {
 
 export const subMenuFields = [
   {
-    name: "hasMenu",
-    label: "Has Menu",
+    name: "hasChildren",
+    label: "Has Children",
     type: "boolean",
     component: "toggle",
   },
   {
-    mame: "menuItems",
+    name: "children",
     label: "Children",
     type: "object",
     list: true,
@@ -45,7 +45,7 @@ export const menuItems = {
   type: "object",
   component: "group-list",
   fields: [
-    menuLink,
+    ...menuLink.fields,
     ...subMenuFields,
   ]
 }

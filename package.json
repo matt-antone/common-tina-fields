@@ -1,6 +1,6 @@
 {
   "name": "common-tina-fields",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Fields commonly used in tina",
   "main": "index.js",
   "scripts": {
