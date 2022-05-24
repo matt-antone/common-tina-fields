@@ -29,6 +29,7 @@ export const subMenuFields = [
   {
     mame: "menuItems",
     label: "Children",
+    type: "object",
     list: true,
     component: "group-list",
     fields: [
