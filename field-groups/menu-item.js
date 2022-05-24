@@ -39,7 +39,7 @@ export const subMenuFields = [
 export const menuItems = {
   name: 'menuItems',
   label: "Menu Items",
-  component: "group-list",
+  list: true,
   fields: [
     menuLink,
     ...subMenuFields,
