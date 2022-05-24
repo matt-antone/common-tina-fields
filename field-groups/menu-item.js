@@ -1,6 +1,7 @@
 export const menuLink = {
   label: "Menu Item",
   name: "menuItem",
+  type: "object",
   fields: [
     {
       name: "label",
@@ -41,7 +42,8 @@ export const subMenuFields = [
 export const menuItems = {
   name: 'menuItems',
   label: "Menu Items",
-
+  type: "object",
+  component: "group-list",
   fields: [
     menuLink,
     ...subMenuFields,
