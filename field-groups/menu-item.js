@@ -41,7 +41,7 @@ export const menuItems = {
   label: "Menu Items",
   component: "group-list",
   fields: [
-    ...menuLink,
+    menuLink,
     ...subMenuFields,
   ]
 }
